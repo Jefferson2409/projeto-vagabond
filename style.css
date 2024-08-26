@@ -1,0 +1,118 @@
+@charset "UTF-8";
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    text-shadow: 5px 5px 5px black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.nav {  
+    margin: auto;
+    max-width: 500px;
+}
+
+a {
+    box-shadow: 0px 0px 10px black;
+    transition-duration: .5s;
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.412);
+    padding: 5px 30px;
+}
+
+html {
+    color: white;
+background-image: url(imagens/cdbf1a11-f54e-446a-9f85-7ab7f3fe8bab.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.747);
+    background-size: cover;
+}
+
+main {
+    background-image: url(imagens/download.jfif);
+    max-width: 500px;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+
+main h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main h2 {
+    padding: 20px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+section {
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgba(0, 0, 0, 0.704);
+}
+
+.bg {
+    height: 100vw;
+    padding: 50px;
+}
+
+@media screen and (min-width: 500px ) {
+
+    html {
+        background-image:url(imagens/1294983.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        background-image: none;
+    }
+
+    body {
+        background-color: rgba(0, 0, 0, 0.545);
+        backdrop-filter: blur(1px);
+    }
+
+    .bg {
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.481);
+        backdrop-filter: blur(2px);
+    }
+    
+}
+
